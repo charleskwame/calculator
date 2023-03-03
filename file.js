@@ -12,7 +12,7 @@ function tipCheck() {
 	// checking if the alert doesn't exist in local storage
 	if (!localStorage.getItem("alertGiven")) {
 		// giving alert
-		alert("******************************\nTips for version 1.0\n\nIMPORTANT\n******************************\n\n1. Clear your using the 'AC' (All Clear) results displayed after one has been rendered to avoid errors\n\n2. You can use your keyboard to type but the number keys are more\n\nPs: You won't get this alert again XD");
+		alert("******************************\nTips for version 1.0\n\nIMPORTANT\n******************************\n\n1. Clear your result using the 'AC' (All Clear) results displayed after one has been rendered to avoid errors\n\n2. You can use your keyboard to type but the number keys are more\n\nPs: You won't get this alert again XD");
 		// creating alert memory in local storage by setting flag
 		localStorage.setItem("alertGiven", true);
 	}
