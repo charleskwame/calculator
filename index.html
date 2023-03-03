@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Calculator V1.0</title>
+	</head>
+	<body>
+
+		<h1 class="text-center font-bold text-2xl lg:text-3xl mt-5 underline underline-offset-8">Calculator V.1.0</h1>
+		<div class="mx-auto grid justify-center py-10 px-5 bg-black border-2 w-fit mt-5 gap-5">
+			<!-- overall div -->
+			<!-- input fields -->
+			<input type="text" id="field1" class="text-black font-semibold text-xl py-2 px-3 border-2 border-black" />
+			<!-- clear all key -->
+			
+			<!-- results -->
+			<p id="resultpara" class="border-2 border-black px-3 py-2 bg-white font-bold text-xl" >Result:</p>
+			
+			<!-- operation keys -->
+			<div id="operationkeyscontainer" class="flex justify-between gap-2">
+				<button class="bg-blue-600 px-5 py-3 text-xl font-bold hover:border-2 hover:border-blue-600 hover:bg-white" id="addbtn">&#43</button>
+				<button class="bg-blue-600 px-5 py-3 text-xl font-bold hover:border-2 hover:border-blue-600 hover:bg-white" id="minusbtn">&#8722</button>
+				<button class="bg-blue-600 px-5 py-3 text-xl font-bold hover:border-2 hover:border-blue-600 hover:bg-white" id="multiplybtn">&#215</button>
+				<button class="bg-blue-600 px-5 py-3 text-xl font-bold hover:border-2 hover:border-blue-600 hover:bg-white" id="dividebtn">&#247</button>
+				<button id="clearbtn" class="w-fit bg-red-600 px-5 py-3 hover:border-2 hover:border-red-600 hover:bg-white font-bold">AC</button>
+			</div>
+
+			<!-- number keys -->
+			<div id="keyscontainer" class="grid grid-cols-3 justify-between gap-2">
+				<button id="button1" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">1</button>
+				<button id="button2" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">2</button>
+				<button id="button3" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">3</button>
+				<button id="button4" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">4</button>
+				<button id="button5" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">5</button>
+				<button id="button6" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">6</button>
+				<button id="button7" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">7</button>
+				<button id="button8" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">8</button>
+				<button id="button9" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">9</button>
+				<button id="button0" class="bg-yellow-500 px-5 py-3 text-xl font-bold hover:border-2 hover:border-yellow-500 hover:bg-white">0</button>
+				<button id="equalbtn" class="col-span-2 bg-blue-600 px-5 py-3 text-xl font-bold hover:border-2 hover:border-blue-600 hover:bg-white">=</button>
+			</div>
+		</div>
+	</body>
+
+	<script src="./file.js"></script>
+</html>
